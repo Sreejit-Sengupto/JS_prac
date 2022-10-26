@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/dolphin.png" type="image/x-icon">
+    <title>Get your Dolphin</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #age-para{
+            text-align: center;
+            font-size: 80px;
+            font-weight: bold;
+            color: darkorange;
+            background-color: darkslategrey;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: 2px 2px 2px black;
+            border-radius: 20px;
+        }
+        #download-link{
+            text-align: center;
+            text-decoration: none;
+            color: red;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+    <p id="age-para"></p>
+    <a href="images/bhagam-bhag-behen-dar-gayi.gif" download="dolphin-virus" id="download-link"></a>
+    <script>
+        let age = prompt("What is your age?", "0");
+        if (age>=18) {
+            document.getElementById('age-para').textContent = "Welcome!";
+            document.getElementById('download-link').textContent = "Click here";
+        } else {
+            document.getElementById('age-para').textContent = "Sorry not allowed! Age must be greater than 18";
+        }
+        alert("Confirm? Else reload this page.");
+    </script>
+</body>
+</html>
+</body>
+</html>
